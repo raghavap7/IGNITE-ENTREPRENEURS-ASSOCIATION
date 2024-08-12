@@ -501,7 +501,7 @@ body.page-2 { padding-top: 80px; }
 }
 
 @media (max-width: 640px) {
-	.tm-gallery-img-container { width: 50%; }
+	.tm-gallery-img-container { width: 100%;        padding: 20px; }
 	.tm-img-grid { max-width: 600px; }
 	.page-2 .tm-section { 
 		padding-top: 7%; 
@@ -514,4 +514,17 @@ body.page-2 { padding-top: 80px; }
 		height: 100vh;
 		min-height: 600px;
 	}
+	.tm-logo
+	{
+		width: 100%;
+		padding: 0px;
+	}
+	.tm-intro 
+	{
+        background-size: 800px 750px;
+    }
+	    .tm-gallery-img-container {
+        width: 100%;
+		padding: 20px;
+    }
 }
